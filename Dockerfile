@@ -1,8 +1,8 @@
 FROM python:3.7-alpine
 
 LABEL "com.github.actions.name"="S3 CopyPaste"
-LABEL "com.github.actions.description"="Sync a file to an AWS S3 repository"
-LABEL "com.github.actions.icon"="refresh-cw"
+LABEL "com.github.actions.description"="Copy Paste a file to an AWS S3 bucket - Fork of jakejarvis/s3-sync-action"
+#LABEL "com.github.actions.icon"="refresh-cw"
 LABEL "com.github.actions.color"="green"
 
 LABEL version="0.2.0"
