@@ -22,7 +22,7 @@ jobs:
    - uses: actions/checkout@master
    
    - name: Upload binary to S3 bucket
-   uses: tpaschalis/s3-sync-action@master
+   uses: westrik/s3-sync-action@master
    with:
      args: --acl public-read
    env:
